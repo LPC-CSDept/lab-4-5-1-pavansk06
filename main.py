@@ -8,9 +8,13 @@ def main():
     ########################################
     """
     i = 0
-    while i < 5:
+    numbers = []
+    while i <= 5:
         i = i + 1
-        numbers.append(int.random())
+        num = int(random.random())
+        numbers.append(num)
+        
+    total = int(num[1]) + int(num[2]) + int(num[3]) + int(num[4]) + int(num[5])
 
     print(f'The random values are {numbers}')
     print(f'The total is {total}')
