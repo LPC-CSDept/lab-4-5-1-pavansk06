@@ -11,10 +11,12 @@ def main():
     numbers = []
     while i < 5:
         i = i + 1
+        print(i)
         num = random.randrange(0, 100)
         numbers.append(num)
     
-  
+    total = numbers[1] + numbers[2] + numbers[3] + numbers[4] + numbers[0]
+        
    
 
     print(f'The random values are {numbers}')
