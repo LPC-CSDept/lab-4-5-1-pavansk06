@@ -24,7 +24,7 @@ def main():
     ########################################
     # Do not delete the return statement
     ########################################
-    return numbers#, total
+    return numbers, total
 
 
 if __name__ == '__main__':
