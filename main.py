@@ -20,7 +20,7 @@ def main():
    
 
     print(f'The random values are {numbers}')
-    #print(f'The total is {total}')
+    print(f'The total is {total}')
 
     ########################################
     # Do not delete the return statement
